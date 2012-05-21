@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automating_FlipKart">
+              <span class="suite-name border-skipped">Automating FlipKart</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automating_FlipKart">
+                    <span>E:\Selenium webdriver\AutomateFlipkart\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automating_FlipKart">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automating_FlipKart">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automating_FlipKart">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automating_FlipKart">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automating_FlipKart">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automating_FlipKart">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Automating_FlipKart" class="hide-methods skipped suite-Automating_FlipKart"> (hide)</a> <!-- hide-methods skipped suite-Automating_FlipKart -->
+                      <a href="#" panel-name="suite-Automating_FlipKart" class="show-methods skipped suite-Automating_FlipKart"> (show)</a> <!-- show-methods skipped suite-Automating_FlipKart -->
+                    </span>
+                    <div class="method-list-content skipped suite-Automating_FlipKart">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_FlipKart" title="TestCenter.TestAddItemFlipKart" hash-for-method="addItem(Babyliss 271CE Hair Curler, 876.0, N)">addItem(Babyliss 271CE Hair Curler, 876.0, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Automating_FlipKart -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automating_FlipKart" class="hide-methods passed suite-Automating_FlipKart"> (hide)</a> <!-- hide-methods passed suite-Automating_FlipKart -->
+                      <a href="#" panel-name="suite-Automating_FlipKart" class="show-methods passed suite-Automating_FlipKart"> (show)</a> <!-- show-methods passed suite-Automating_FlipKart -->
+                    </span>
+                    <div class="method-list-content passed suite-Automating_FlipKart">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_FlipKart" title="TestCenter.TestCheckCartFlipKart" hash-for-method="CheckCart">CheckCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_FlipKart" title="TestCenter.TestAddItemFlipKart" hash-for-method="addItem(Sony Cybershot DSC-S5000 Point &amp; Shoot (Black) , 5300.0, Y)">addItem(Sony Cybershot DSC-S5000 Point & Shoot (Black) , 5300.0, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_FlipKart" title="TestCenter.TestAddItemFlipKart" hash-for-method="addItem(Poor Little Rich Slum by Rashmi Bansal, 175.0, Y)">addItem(Poor Little Rich Slum by Rashmi Bansal, 175.0, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_FlipKart" title="TestCenter.TestLogoutFlipKart" hash-for-method="clikLogOut">clikLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_FlipKart" title="TestCenter.TestLoginFlipKart" hash-for-method="clikLogin">clikLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automating_FlipKart" title="TestCenter.TestOpenFlipKart" hash-for-method="openBrowser">openBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automating_FlipKart -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automating_FlipKart" class="panel Automating_FlipKart">
+          <div class="suite-Automating_FlipKart-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCenter.TestAddItemFlipKart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Babyliss 271CE Hair Curler, 876.0, N)">
+                  </a> <!-- addItem(Babyliss 271CE Hair Curler, 876.0, N) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Babyliss 271CE Hair Curler, 876.0, N)</span>
+                  <div class="stack-trace"><b>"Test data runmode Set to no"</b><br>TestCenter.TestAddItemFlipKart.addItem(TestAddItemFlipKart.java:21)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:702)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:768)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1110)<br>org.testng.TestNG.run(TestNG.java:1022)<br>org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:109)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:202)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:173)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_FlipKart-class-skipped -->
+          <div class="suite-Automating_FlipKart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCenter.TestLoginFlipKart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clikLogin">
+                  </a> <!-- clikLogin -->
+                  <span class="method-name">clikLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_FlipKart-class-passed -->
+          <div class="suite-Automating_FlipKart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCenter.TestCheckCartFlipKart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckCart">
+                  </a> <!-- CheckCart -->
+                  <span class="method-name">CheckCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_FlipKart-class-passed -->
+          <div class="suite-Automating_FlipKart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCenter.TestLogoutFlipKart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clikLogOut">
+                  </a> <!-- clikLogOut -->
+                  <span class="method-name">clikLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_FlipKart-class-passed -->
+          <div class="suite-Automating_FlipKart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCenter.TestAddItemFlipKart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Sony Cybershot DSC-S5000 Point &amp; Shoot (Black) , 5300.0, Y)">
+                  </a> <!-- addItem(Sony Cybershot DSC-S5000 Point & Shoot (Black) , 5300.0, Y) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Sony Cybershot DSC-S5000 Point & Shoot (Black) , 5300.0, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Poor Little Rich Slum by Rashmi Bansal, 175.0, Y)">
+                  </a> <!-- addItem(Poor Little Rich Slum by Rashmi Bansal, 175.0, Y) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Poor Little Rich Slum by Rashmi Bansal, 175.0, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_FlipKart-class-passed -->
+          <div class="suite-Automating_FlipKart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCenter.TestOpenFlipKart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowser">
+                  </a> <!-- openBrowser -->
+                  <span class="method-name">openBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automating_FlipKart-class-passed -->
+        </div> <!-- panel Automating_FlipKart -->
+        <div panel-name="test-xml-Automating_FlipKart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Selenium webdriver\AutomateFlipkart\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automating FlipKart&quot;&gt;
+  &lt;test name=&quot;FlipKart Login/Logout&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCenter.TestOpenFlipKart&quot;/&gt;
+      &lt;class name=&quot;TestCenter.TestLoginFlipKart&quot;/&gt;
+      &lt;class name=&quot;TestCenter.TestAddItemFlipKart&quot;/&gt;
+      &lt;class name=&quot;TestCenter.TestCheckCartFlipKart&quot;/&gt;
+      &lt;class name=&quot;TestCenter.TestLogoutFlipKart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlipKart Login/Logout --&gt;
+&lt;/suite&gt; &lt;!-- Automating FlipKart --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automating_FlipKart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automating FlipKart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FlipKart Login/Logout (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automating_FlipKart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automating FlipKart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automating_FlipKart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automating FlipKart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automating_FlipKart');
+function tableData_Automating_FlipKart() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'openBrowser')
+data.setCell(0, 2, 'TestCenter.TestOpenFlipKart')
+data.setCell(0, 3, 24384);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addItem')
+data.setCell(1, 2, 'TestCenter.TestAddItemFlipKart')
+data.setCell(1, 3, 16960);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clikLogin')
+data.setCell(2, 2, 'TestCenter.TestLoginFlipKart')
+data.setCell(2, 3, 15387);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addItem')
+data.setCell(3, 2, 'TestCenter.TestAddItemFlipKart')
+data.setCell(3, 3, 15005);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clikLogOut')
+data.setCell(4, 2, 'TestCenter.TestLogoutFlipKart')
+data.setCell(4, 3, 5640);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CheckCart')
+data.setCell(5, 2, 'TestCenter.TestCheckCartFlipKart')
+data.setCell(5, 3, 1345);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addItem')
+data.setCell(6, 2, 'TestCenter.TestAddItemFlipKart')
+data.setCell(6, 3, 2);
+window.suiteTableData['Automating_FlipKart']= { tableData: data, tableDiv: 'times-div-Automating_FlipKart'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Automating_FlipKart">
+              </div> <!-- times-div-Automating_FlipKart -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automating_FlipKart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automating FlipKart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automating_FlipKart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCenter.TestCheckCartFlipKart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shutDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCenter.TestLogoutFlipKart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shutDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCenter.TestAddItemFlipKart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shutDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCenter.TestOpenFlipKart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shutDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automating_FlipKart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCenter.TestOpenFlipKart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCenter.TestLoginFlipKart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24397 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clikLogin</span>
+                <span class="method-start">24400 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCenter.TestAddItemFlipKart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39789 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addItem(Poor Little Rich Slum by Rashmi Bansal, 175.0, Y)</span>
+                <span class="method-start">40419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Babyliss 271CE Hair Curler, 876.0, N)</span>
+                <span class="method-start">55425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Sony Cybershot DSC-S5000 Point & Shoot (Black) , 5300.0, Y)</span>
+                <span class="method-start">55428 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCenter.TestCheckCartFlipKart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72389 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">CheckCart</span>
+                <span class="method-start">72391 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCenter.TestLogoutFlipKart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73736 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clikLogOut</span>
+                <span class="method-start">73737 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCenter.TestLoginFlipKart</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">79406 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

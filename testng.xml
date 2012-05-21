@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Automating FlipKart">
+
+<test name = "FlipKart Login/Logout">
+<classes>  
+  <class name="TestCenter.TestOpenFlipKart"> </class>
+  <class name="TestCenter.TestLoginFlipKart"> </class>
+  <class name="TestCenter.TestAddItemFlipKart"> </class>
+  <class name="TestCenter.TestCheckCartFlipKart"></class>
+  <class name="TestCenter.TestLogoutFlipKart"></class>
+</classes>
+</test>
+</suite>

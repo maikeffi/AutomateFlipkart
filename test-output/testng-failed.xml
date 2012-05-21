@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automating FlipKart]">
+  <test name="FlipKart Login/Logout(failed)" preserve-order="true">
+    <classes>
+      <class name="TestCenter.TestLoginFlipKart">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCenter.TestLoginFlipKart -->
+      <class name="TestCenter.TestCheckCartFlipKart">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCenter.TestCheckCartFlipKart -->
+      <class name="TestCenter.TestLogoutFlipKart">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCenter.TestLogoutFlipKart -->
+      <class name="TestCenter.TestAddItemFlipKart">
+        <methods>
+          <include name="setUp"/>
+          <include name="addItem" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- TestCenter.TestAddItemFlipKart -->
+      <class name="TestCenter.TestOpenFlipKart">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCenter.TestOpenFlipKart -->
+    </classes>
+  </test> <!-- FlipKart Login/Logout(failed) -->
+</suite> <!-- Failed suite [Automating FlipKart] -->
